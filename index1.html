@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Portfolio</title>
+    <style>
+.container{
+width: 100%;
+a{
+    text-decoration: bold;
+    color: rgba(26, 194, 17, 0.801);
+}
+
+}
+.header1{
+/* background-color: lightblue; */
+background-image: url("image/1.png");
+color: white;
+padding: 60px 0;
+text-align: center;
+
+figure{
+    text-align: center;
+}
+figure img{
+    border-radius: 30px;
+    width: 300px;
+    height: auto;
+}
+figcaption{
+    margin-top: 10px;
+    font-style: italic;
+    color: white;
+}
+}
+.header2{
+  
+    margin: 0 auto;
+    padding: 10px;
+    width: 90%;
+    
+}
+.header3{
+  
+  margin: 0 auto;
+  padding: 20px;
+  width: 90%;
+}
+.header4{
+  
+  margin: 0 auto;
+  padding: 20px;
+  width: 90%;
+}
+
+.experience-list{
+    display: flex;
+    justify-content: space-between;
+}
+.experience-list .job{
+    width: 45%;
+    background-color: #f9f9f9;
+    padding: 15px;
+    border: 5px solid black;
+    box-shadow: 1 1 5px rgba(0, 0, 0, 0.1) ;
+}
+.experience-list .job h4{
+    margin: 0;
+    color: #333;
+}
+
+section{
+    background-color: lightblue;
+    margin: 20px 0;
+    padding: 80px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header5{
+    
+  
+  margin: 0 auto;
+  padding: 20px;
+  width: 90%;
+
+}
+section h3{
+    border-bottom: 2px solid #c1b01b;
+}
+.header6{
+    
+  
+    margin: 0 auto;
+    padding: 20px;
+    width: 87%;
+    background-color: #ff6347;
+  
+  }
+  form{
+    display: flex;
+    flex-direction: column;
+}
+form label{
+    margin-top: 10px;
+}
+form input, form textarea{
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+form button{
+    margin-top: 15px;
+    padding: 10px;
+    background-color: rgb(102, 138, 255);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+form button:hover{
+    background-color: #9dff00;
+
+}
+footer {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.485);
+  
+    color:white;
+    padding: 30px 0;
+}
+footer a{
+    color: #ffc247;
+
+}
+footer a:hover{
+    color: #ca0c0cd1;
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header1">
+<h1><i>Md.Mahmudur Rahman</i></h1>
+<h2>Web Developer & Enthusiast</h2>
+<nav>
+    <a href="#about">About</a> |
+    <a href="#skills">Skills</a> |
+    <a href="#experience">Experience</a> |
+    <a href="#education">Education</a> |
+    <a href="#contact">Contact</a> 
+</nav>
+<figure>
+    <img src="./image/1.jpg" alt="Profile Picture">
+</figure>
+<figcaption>
+    Profile Picture
+</figcaption>
+        </div>
+      <div class="header2">
+
+<section id="about">
+    <h3>About Me</h3>
+    <p>
+        <time datetime="2024-11-2">Today</time>
+                , I am willing to share about html. We all know that <abbr title="Hypertext Markup Language"><b>HTML</b></abbr> is a webside based structural part.It structures a website in such a way which can show a view part.
+                <br>
+                Once a People said- "For giving an effort on a specific term, that will not be fail".The success will come at any time.
+    </p>
+
+</section>
+      </div>
+      <div class="header3">
+        <section id="skills">
+            <h3>Skills</h3>
+            <ul>
+                <li><strong>HTML</strong></li>
+                <li><strong>CSS</strong></li>
+                <li><strong>JavaScript</strong></li>
+                <li><strong>Python</strong></li>
+                <li><strong>React</strong></li>
+                <li><strong>NodeJs</strong></li>
+                <li><strong>Express</strong></li>
+            </ul>
+        </section>
+
+      </div>
+    <div class="header4">
+        <section id="experience">
+            <h3>Experience</h3>
+            <div class="experience-list">
+                <div class="job">
+                    <h4>Henoi Corp. IT</h4>
+                    <p><strong>Role:</strong>
+                     Senior Developer (2029-2034)
+                    </p>
+                </div>
+                <div class="job">
+                    <h4>Ztrios Tech</h4>
+                    <p>
+                        <strong>Role:</strong> Junior Developer (2026-2028)
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </div>
+    <div class="header5">
+        <section id="education">
+            <h3>Education</h3>
+            <p><b>University Name:</b> IUBAT</p>
+            <p><b>Degree:</b> Bsc in CSE</p>
+            <p><b>Years:</b>
+            2022 - 2025
+            </p>
+        </section>
+
+    </div>
+    <div class="header6">
+        <section id="contact">
+<h3>Contact Me</h3>
+<address>
+    <p>
+        <b>Email: </b>
+        <a href="mailto:mdmahmudurrahman648@gmail.com">mdmahmudurrahman648@gmail.com</a>
+    </p>
+    <p>
+        <b>Website: </b>
+        <a href="https://youtube.com">YouTube</a>
+    </p>
+</address>
+<form action="mailto:mdmahmudurrahman648@gmail.com" method="post" enctype="text/plain">
+    <label for="name">Name:</label>
+    <input placeholder="Your name:" type="text" id="name" name="name" required>
+    <label for="message">Message:</label>
+    <textarea placeholder="Random message" id="message" name="message" rows="5" cols="30" readonly></textarea>
+    <button type="submit">Send</button>
+</form>
+        </section>
+    </div>
+   
+    </div>
+    <br>
+    <footer>
+        <p>© 
+            <time datetime="2024">2024</time>
+            Md.Mahmudur Rahman. All rights reserved.
+        </p>
+        <p>
+            Follow me on 
+            <a href="https://twitter.com" target="_blank">Twitter</a>
+            <a href="https://github.com" target="_blank">Github</a>
+        </p>
+    </footer>
+</body>
+</html>
